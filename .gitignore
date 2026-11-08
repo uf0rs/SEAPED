@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller
+build/
+dist/*.exe
+dist/settings.json
+dist/session.json
+dist/proxies.json
+dist/results/
+dist/presets/
+*.spec.bak
+
+# Runtime data (created next to the app)
+settings.json
+session.json
+proxies.json
+presets/*.json
+results/*
+
+# Screenshot sources (PNGs are kept for the README)
+tests/shots/*.svg
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
